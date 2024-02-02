@@ -86,7 +86,7 @@ window.addEventListener("DOMContentLoaded", () => {
         return enableSwiper(swiperClass, swiperSettings);
       } else {
         if (swiper !== undefined) swiper.destroy(true, true);
-        swiper.pagination.el.style.display = "none";
+        
         return;
       }
     };
