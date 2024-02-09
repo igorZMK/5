@@ -41,7 +41,7 @@ window.addEventListener("load", (event) => {
 
 function response1() {
   {
-    if (window.innerWidth >= 752)
+    if (window.innerWidth >= 769)
       cards.forEach((item, index) => {
         item.classList.add("hidden");
         if (index <= 5) {
@@ -95,7 +95,7 @@ window.addEventListener("DOMContentLoaded", () => {
     checker();
   };
 
-  resizableSwiper("(max-width: 319px)", ".swiper", {
+  resizableSwiper("(max-width: 768px)", ".swiper", {
     loop: true,
     slidesPerView: 2,
     spaceBetween: 200,
